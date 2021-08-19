@@ -5,6 +5,7 @@ License: https://webthemez.com/license
 */
 /*--------------------------------------------------------------
 # General
+span
 --------------------------------------------------------------*/
 body {
   background: #fff;
@@ -220,9 +221,9 @@ h6 {
   text-align: left;
 }
 #hero .hero-content h2 span {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: right;
-  font-size: 66px;
+  font-size: 210%;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1242,6 +1243,15 @@ p.help-block li {
   border-radius: 4px;
   font-size: 17px;
 }
+@media (max-width: 400px) {
+  .JobSearch {
+    margin-top: 5px;
+    width: 70%;
+    height: 200%;
+    border-radius: 4px;
+    font-size: 17px;
+  }
+}
 
 /* footer */
 
@@ -1375,7 +1385,7 @@ p.help-block li {
 /* footer */
 
 .newsLetter {
-  height: 60px;
+  height: 30%;
   background-color: rgb(64, 125, 238);
 }
 
