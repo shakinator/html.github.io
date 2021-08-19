@@ -751,13 +751,10 @@ Inner Banner
 
 #clients img {
   max-width: 100%;
-  opacity: 0.5;
+  max-height: 100%;
+  opacity: 1;
   transition: 0.3s;
   padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
 }
 
 #clients .owl-nav,
@@ -1209,22 +1206,22 @@ p.help-block li {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #071e33;
+  background: #ffffff;
   padding: 0 0 30px 0;
   font-size: 14px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #ffffffad;
+  color: #000000ad;
 }
 
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #ffffff85;
+  color: #00000085;
   margin-top: 8px;
 }
 
@@ -1246,4 +1243,162 @@ p.help-block li {
   font-size: 17px;
 }
 
+/* footer */
 
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #ffffff;
+  background-color: #071e33;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+
+  .footer__addr {
+    flex: 1 0px;
+  }
+
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+/* footer */
+
+.newsLetter {
+  height: 60px;
+  background-color: rgb(64, 125, 238);
+}
+
+.newsLetterBtn {
+  background: #07cc91;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.newsLetterBtn:hover {
+  opacity: 0.7;
+}
+
+.logoImg {
+  height: 50px;
+  width: 50px;
+}
+
+.brandCar {
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+}
