@@ -5,7 +5,7 @@ License: https://webthemez.com/license
 */
 /*--------------------------------------------------------------
 # General
-span
+hero-content
 --------------------------------------------------------------*/
 body {
   background: #fff;
@@ -1403,12 +1403,63 @@ p.help-block li {
 }
 
 .logoImg {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (max-width:400px) {
+  .logoImg {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media screen and (max-width:770px) {
+  .logoImg {
+    height: 45px;
+    width: 45px;
+  }
 }
 
 .brandCar {
   height: 70px;
   width: 70px;
   opacity: 1;
+}
+
+@media screen and (max-width:400px) {
+  #hero .hero-content h2 span {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  #hero .hero-content h2 span {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 170%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width:924px) {
+  #hero .hero-content h2 span {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 140%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width:498px) {
+  #hero .hero-content h2 span {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
