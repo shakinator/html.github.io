@@ -1407,13 +1407,13 @@ p.help-block li {
   width: 70px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .logoImg {
     height: 40px;
     width: 40px;
   }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
   .logoImg {
     height: 45px;
     width: 45px;
@@ -1426,7 +1426,7 @@ p.help-block li {
   opacity: 1;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1436,7 +1436,7 @@ p.help-block li {
   }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width: 1150px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1445,7 +1445,7 @@ p.help-block li {
     font-weight: 700;
   }
 }
-@media screen and (max-width:924px) {
+@media screen and (max-width: 924px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1454,7 +1454,7 @@ p.help-block li {
     font-weight: 700;
   }
 }
-@media screen and (max-width:498px) {
+@media screen and (max-width: 498px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1462,4 +1462,26 @@ p.help-block li {
     text-transform: uppercase;
     font-weight: 700;
   }
+}
+
+.whatsapp {
+  display: flex;
+  align-items: flex-end;
+}
+
+.SearchJobs {
+  background-color: rgb(46, 231, 216);
+  width: 30%;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.JobBtn {
+  margin-bottom: 4px;
+  background-color: rgb(49, 230, 88);
+}
+
+.Modal {
+  backdrop-filter: none;
+  padding-top: 200px;
 }

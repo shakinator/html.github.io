@@ -24,6 +24,7 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet"> 
@@ -58,8 +59,109 @@
       <div class="hero-content">
         <h2>JOB<br><span>Consulting</span></h2>
 
-        <div>
-          <input type="text" placeholder="  Search for job types" class="JobSearch"></input>
+          <div class="w3-container">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-large SearchJobs" style="font-size:3vw">Search For Jobs</button>
+          <div>
+            <div id="id01" class="w3-modal Modal">
+              <div class="w3-modal-content w3-card-4 w3-animate-zoom"  >
+                <header class="w3-container "> 
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h4 style="margin-top:3px">Choose Your Job Type</h4>
+                <button onclick="document.getElementById('id02').style.display='block'"
+                class="w3-button">Accountant</button>
+
+                <!-- The Modal -->
+                <div id="id02" class="w3-modal w3-animate-zoom modal Modal">
+                  <div class="w3-modal-content">
+                    <div class="w3-container">
+                      <span onclick="document.getElementById('id02').style.display='none'"
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
+                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Accountant">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                        </div>
+                        <br />
+                        <div class="form-group" >
+                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
+                        </div>
+                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <br />
+                <button onclick="document.getElementById('id03').style.display='block'"
+                class="w3-button">Software Developer</button>
+
+                <!-- The Modal -->
+                <div id="id03" class="w3-modal w3-animate-zoom Modal">
+                  <div class="w3-modal-content">
+                    <div class="w3-container">
+                      <span onclick="document.getElementById('id03').style.display='none'"
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
+                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Software Developer">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                        </div>
+                        <br />
+                        <div class="form-group" >
+                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
+                        </div>
+                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <br />
+                <button onclick="document.getElementById('id04').style.display='block'"
+                class="w3-button">Designer</button>
+
+                <!-- The Modal -->
+                <div id="id04" class="w3-modal w3-animate-zoom Modal">
+                  <div class="w3-modal-content">
+                    <div class="w3-container">
+                      <span onclick="document.getElementById('id04').style.display='none'"
+                      class="w3-button w3-display-topright">&times;</span>
+                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
+                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Designer">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                        </div>
+                        <br />
+                        <div class="form-group" >
+                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
+                        </div>
+                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <br />
+                </header>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -308,14 +410,15 @@
       </li>
     </ul>
   </footer>
-
+  <div id="WAButton" class="whatsapp"></div>
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>RANDOM</strong>. All Rights Reserved
+        &copy; Copyright <strong>Mark Makers</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
+  <div id="WAButton" class="whatsapp"></div>
   
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -334,6 +437,14 @@
  <script src="contact/jqBootstrapValidation.js"></script>
  <script src="contact/contact_me.js"></script>
   <script src="js/main.js"></script>
+  <!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+
 
 </body>
 </html>

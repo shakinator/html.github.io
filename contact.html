@@ -97,42 +97,28 @@
         <div class="form"> 
 		  
 		   <!-- Form itself -->
-          <form name="sentMessage" class="well" id="contactForm" action="mail.php" method="POST" novalidate autocomplete="on"> 
-		 <div class="control-group">
-                   <div class="form-group">
-			<input type="text" class="form-control" 
-			   	   placeholder="Full Name" id="name" required
-			           data-validation-required-message="Please enter your name" name="name" />
-			  <p class="help-block"></p>
-
-		   </div>
-	         </div> 	
-                <div class="form-group">
-                  <div class="controls">
-			<input type="email" class="form-control" placeholder="Email" 
-			   	            id="email" required
-			   		   data-validation-required-message="Please enter your email" name="email" />
-		</div>
-	    </div> 	
-      <div class="form-group" required>
-        <h3 style="margin-top:6px">JOBS</h3>
-        <select id="jobs" name="jobslist" form="job">
-          <option value="Software Developer">Software Developer</option>
-          <option value="Digital Marketer">Digital Marketer</option>
-          <option value="Product Manager">Product Manager</option>
-          <option value="SEO executive">SEO executive</option>
-        </select>
-      </div>
-    <div class="form-group uploadCv">
-      <h3 style="margin-top:15px">Upload Your CV here</h3>
-      <input type="file" id="myFile" name="filename">
-    </div>
-        </div> 		 
-	     <div id="success"> </div> 
-       <input type="submit" value="Send"><br />
-      <button type="reset" class="btn btn-primary pull-right" value="clear" >Clear</button><br />
-          </form>
-        
+      <form  class="well" action="https://getform.io/f/2fe4c079-8c32-4d23-9e89-34b18f3cf088" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
+        </div>
+        <div>
+          <h3 style="margin-top:15px">Upload Your CV here</h3>
+          <input type="file" name="resume">
+        </div>
+        <div class="form-group" required>
+          <h3 style="margin-top:6px">JOBS
+          <select name="static-site-generator">
+            <option value="Software Developer">Software Developer</option>
+            <option value="Digital Marketer">Digital Marketer</option>
+            <option value="Product Manager">Product Manager</option>
+            <option value="SEO executive">SEO executive</option>
+          </select>
+        </div>
+        <button class="btn btn-primary pull-right" type="submit">Send</button>
+      </form>
         </div>
       </div>
 		 </div>
@@ -232,11 +218,11 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>RANDOM</strong>. All Rights Reserved
+        &copy; Copyright <strong>Mark Makers</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
-  
+  <div id="WAButton" class="whatsapp"></div>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
