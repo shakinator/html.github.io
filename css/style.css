@@ -1476,9 +1476,23 @@ p.help-block li {
   font-weight: 600;
 }
 
+.Job {
+  font-size: 2vw;
+  background-color: none;
+}
+@media screen and (max-width: 632px) {
+  .Job {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 497px) {
+  .Job {
+    font-size: 2.5vw;
+  }
+}
 .JobBtn {
   margin-bottom: 4px;
-  background-color: rgb(49, 230, 88);
+  background-color: rgb(18, 31, 21);
 }
 
 .Modal {
