@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Sample</title>
+  <title>Home Page</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -24,7 +24,6 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet"> 
@@ -42,9 +41,12 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Home</a></li>
-          <li><a href="">About Us</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
           <li><a href="">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li><br>
+          <li> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+          </svg><a style="color: white;" href="mailto:shah@markmakers.in">shah@markmakers.in</a><a style="color: white;" href="mailto:support@markmakers.in">support@markmakers.in</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -57,111 +59,10 @@
       </div>
 
       <div class="hero-content">
-        <h2>JOB<br><span>Consulting</span></h2>
+        <h2>JOB<br><span style="color: #D9B775;">CONSULTING</style></span></h2>
 
-          <div class="w3-container">
-            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-large SearchJobs" ><span class="Job">Search For Jobs</span></button>
-          <div>
-            <div id="id01" class="w3-modal Modal">
-              <div class="w3-modal-content w3-card-4 w3-animate-zoom"  >
-                <header class="w3-container "> 
-                  <span onclick="document.getElementById('id01').style.display='none'" 
-                  class="w3-button w3-display-topright">&times;</span>
-                  <h4 style="margin-top:3px">Choose Your Job Type</h4>
-                <button onclick="document.getElementById('id02').style.display='block'"
-                class="w3-button">Accountant</button>
-
-                <!-- The Modal -->
-                <div id="id02" class="w3-modal w3-animate-zoom modal Modal">
-                  <div class="w3-modal-content">
-                    <div class="w3-container">
-                      <span onclick="document.getElementById('id02').style.display='none'"
-                      class="w3-button w3-display-topright">&times;</span>
-                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
-                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Accountant">
-                        </div>
-                        <br />
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                        </div>
-                        <br />
-                        <div class="form-group" >
-                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
-                        </div>
-                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
-                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                <br />
-                <button onclick="document.getElementById('id03').style.display='block'"
-                class="w3-button">Software Developer</button>
-
-                <!-- The Modal -->
-                <div id="id03" class="w3-modal w3-animate-zoom Modal">
-                  <div class="w3-modal-content">
-                    <div class="w3-container">
-                      <span onclick="document.getElementById('id03').style.display='none'"
-                      class="w3-button w3-display-topright">&times;</span>
-                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
-                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Software Developer">
-                        </div>
-                        <br />
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                        </div>
-                        <br />
-                        <div class="form-group" >
-                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
-                        </div>
-                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
-                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                <br />
-                <button onclick="document.getElementById('id04').style.display='block'"
-                class="w3-button">Designer</button>
-
-                <!-- The Modal -->
-                <div id="id04" class="w3-modal w3-animate-zoom Modal">
-                  <div class="w3-modal-content">
-                    <div class="w3-container">
-                      <span onclick="document.getElementById('id04').style.display='none'"
-                      class="w3-button w3-display-topright">&times;</span>
-                      <h4 style="margin-top:3px">Drop your information here we will contact you</h4>
-                      <form  class="well" action="" method="POST" enctype="multipart/form-data">
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="Job" placeholder="Fill in your Job preference" required value="Designer">
-                        </div>
-                        <br />
-                        <div class="form-group">
-                          <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                        </div>
-                        <br />
-                        <div class="form-group" >
-                          <input class="form-control" type="email" name="email" placeholder="Enter Your Email address" required>
-                        </div>
-                        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
-                          <button class="JobBtn btn pull-right" type="submit" >Send</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                <br />
-                </header>
-              </div>
-            </div>
-          </div>
+        <div>
+          <input type="text" placeholder="  Search for job types" class="JobSearch"></input>
         </div>
       </div>
 
@@ -190,7 +91,7 @@
             <ul>
               <li><i class="icon ion-ios-checkmark-outline"></i> Mark Makers offers flexibility to both the companies and the job seekers.</li>
               <li><i class="icon ion-ios-checkmark-outline"></i> The candidate can choose how and where they want to work.</li>
-              <li><i class="icon ion-ios-checkmark-outline"></i>. The companies can easily hire skilled candidates without disturbing their work schdules.</li>
+              <li><i class="icon ion-ios-checkmark-outline"></i> The companies can easily hire skilled candidates without disturbing their work schdules.</li>
             </ul> 
           </div>
         </div>
@@ -255,6 +156,15 @@
           <img class="brandCar" src="img/clients/airbnb.png" alt="">
           <img class="brandCar" src="img/clients/Cognizant.png" alt="">
           <img class="brandCar" src="img/clients/barclays.png" alt="">
+          <img class="brandCar" src="img/clients/cvent.png" alt="">
+          <img class="brandCar" src="img/clients/FIS.png" alt="">
+          <img class="brandCar" src="img/clients/british council.png" alt="">
+          <img class="brandCar" src="img/clients/NIIT_Technologies_Logo.svg.png" alt="">
+          <img class="brandCar" src="img/clients/WNS_original.png" alt="">
+          <img class="brandCar" src="img/clients/ba.png" alt="">
+          <img class="brandCar" src="img/clients/interglobe.png" alt="">
+          <img class="brandCar" src="img/clients/sitel.png" alt="">
+          <img class="brandCar" src="img/clients/in.png" alt="">
           <img src="img/clients/metlife.png" alt="">
         </div>
 
@@ -325,41 +235,108 @@
   <section class="wow fadeInUp newsLetter">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 text-center text-lg-left" style="margin-top: 10px">
-          <h3 class="cta-title" style="margin-right:20%;">Get Job Updates <button class="cta-btn align-middle newsLetterBtn" href="contact.html">Click Here</button></h3>
+        <div class="col-lg-6 text-center text-lg-right" style="margin-top: 10px">
+          <h3 class="cta-title" style="text-align: center;">Get Job Updates <button style="text-align: center;" class="cta-btn align-middle newsLetterBtn" href="contact.html">Click Here</button></h3>
         </div>
       </div>
     </div>
   </section><!-- #call-to-action -->
 
-  <!--========================== Footer ============================-->
-
+  <!--==========================
+    Footer
+  ============================-->
   <footer class="footer">
     <div class="footer__addr">
-      <h1 class="footer__logo"><img src="img/clients/LOGO (1).png" class="logoImg">Mark Makers </h1>
+      <h1 class="footer__logo"><img style= "height: 150px; width: 150px;" src="img/clients/LOGO (1).png" class="logoImg" style= " color: aliceblue; font-family: Comic sans-serif">Mark Makers </h1>
           
-      <h2><a href="index.html">About Us</a></h2>
-      <h2><a href="contact.html">Contact</a></h2>
     </div>
     
     <ul class="footer__nav">
       <li class="nav__item">
-        <h2 class="nav__title"></h2>
+        <h2 class="nav__title" style="color: #b4b4b1;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+          <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+          <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+        </svg> Quick Links</h2>
   
         <ul class="nav__ul">
           <li>
-            <a href="#"></a>
+            <a href="index.html" style="color: #F4DB67;">Home</a>
           </li>
   
           <li>
-            <a href="#"></a>
+            <a href="index.html" style="color: #F4DB67;">Company Overview</a>
           </li>
               
           <li>
-            <a href="#"></a>
+            <a href="index.html" style="color: #F4DB67;">Our Services</a>
           </li>
+
+          <li>
+            <a href="index.html" style="color: #F4DB67;">Testimonials</a>
+          </li>
+
+          <li>
+            <a href="contact.html" style="color: #F4DB67;">Contact Us</a>
+          </li>
+
         </ul>
       </li>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title" style="color: #b4b4b1;">Social Media</h2>
+    
+          <ul class="nav__ul">
+            <li>
+              <a style="color: #F4DB67;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg></a> 
+            </li>
+              
+            <li><a style="color: #F4DB67;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg></a>
+            </li>
+                
+            <li>
+              <a style="color: #F4DB67;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg></a>
+            </li>
+          </ul>
+        </li>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title" style="color: #b4b4b1;">Reach Out to Us</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <svg style="color: #F4DB67;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                  <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                </svg> 5901, Basti Harphool Singh, Sadar Thana Road,Sadar  Bazar, Delhi110006
+              </li><br>
+      
+              <li>
+                <svg style="color: #F4DB67;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>  +91-9999338333
+              </li><br>
+                  
+              <li>
+                <svg style="color: #F4DB67;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                </svg><a style="color: white;" href="mailto:shah@markmakers.in">shah@markmakers.in</a><br><a style="color: white;" href="mailto:support@markmakers.in">support@markmakers.in</a>
+              </li><br>
+              
+              <li>
+                <svg style="color: #F4DB67;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                  </svg><a style="color: white;" href="www.markmakers.in">  www.markmakers.in</a> 
+              </li>
+            </ul>
+          </li>
       
       <li class="nav__item nav__item--extra">
         <h2 class="nav__title"></h2>
@@ -410,15 +387,14 @@
       </li>
     </ul>
   </footer>
-  <div id="WAButton" class="whatsapp"></div>
+
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Mark Makers</strong>. All Rights Reserved
+        &copy; Copyright <strong>RANDOM</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
-  <div id="WAButton" class="whatsapp"></div>
   
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -437,13 +413,13 @@
  <script src="contact/jqBootstrapValidation.js"></script>
  <script src="contact/contact_me.js"></script>
   <script src="js/main.js"></script>
+
   <!--Jquery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!--Floating WhatsApp css-->
 <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
 <!--Floating WhatsApp javascript-->
 <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
-
 
 
 </body>
