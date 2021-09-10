@@ -8,20 +8,20 @@ License: https://webthemez.com/license
 hero-content
 --------------------------------------------------------------*/
 body {
-  background:rgb(180, 176, 176);
-  color:blanchedalmond;
+  background: rgb(180, 176, 176);
+  color: blanchedalmond;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color:BLACK;
+  color: BLACK;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color:#FCEDA6;
+  color: #fceda6;
   outline: none;
   text-decoration: none;
 }
@@ -41,24 +41,23 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color:rgb(252, 252, 252);
+  color: rgb(252, 252, 252);
 }
 
-.footer h2{
-  color: #F4DB67;
+.footer h2 {
+  color: #f4db67;
 }
 
-.hero-content h2
-{
-  color: #D9B775;
+.hero-content h2 {
+  color: #d9b775;
 }
 
 /* Back to top button */
 .back-to-top {
   position: fixed;
   display: none;
-  background: #292929;   
-  color: #FCEDA6;   
+  background: #292929;
+  color: #fceda6;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -74,20 +73,19 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #292929 ; 
-  color:#FCEDA6;
+  background: #292929;
+  color: #fceda6;
   outline: none;
 }
-
 
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
   padding: 10px 0;
-  border-bottom: 1px solid #F4DB67;
+  border-bottom: 1px solid #f4db67;
   font-size: 14px;
-  background:#757575 ;
+  background: #757575;
 }
 
 #topbar .contact-info a {
@@ -96,11 +94,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #FCEDA6;
+  color: #fceda6;
 }
 
 #topbar .contact-info i {
-  color: #FCEDA6;
+  color: #fceda6;
   padding: 4px 4px 0 0;
 }
 .contact-info.float-left {
@@ -113,7 +111,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #FCEDA6;
+  color: #fceda6;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -121,7 +119,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #D9B775;
+  color: #d9b775;
 }
 
 #topbar .social-links a:first-child {
@@ -157,10 +155,10 @@ h6 {
   color: #ffffff;
 }
 .is-sticky #header #logo h1 a {
-  color:#292929;
+  color: #292929;
 }
 #header #logo h1 a span {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 #header #logo img {
@@ -175,7 +173,7 @@ h6 {
 }
 .is-sticky header .nav-menu a,
 .is-sticky header .nav-menu a:hover {
-  color: #F4DB67;
+  color: #f4db67;
 }
 .is-sticky header .nav-menu li.menu-active a {
   color: #292929;
@@ -268,7 +266,7 @@ h6 {
 }
 
 #hero .hero-content .btn-projects {
-  background:#292929;
+  background: #292929;
   border: 2px solid #292929;
 }
 
@@ -462,7 +460,7 @@ h6 {
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
-  background:#292929;
+  background: #292929;
 }
 
 #mobile-nav ul {
@@ -551,7 +549,7 @@ Inner Banner
   margin: 0px;
 }
 #innerBanner h2 span {
-  color:#F4DB67;
+  color: #f4db67;
   font-weight: bold;
   font-size: 38px;
   text-align: center;
@@ -588,7 +586,7 @@ Inner Banner
   height: 3px;
   bottom: 0;
   left: 0;
-  border-top:wheat solid 2px;
+  border-top: wheat solid 2px;
   right: 0;
   text-align: center;
   margin: 0 auto;
@@ -606,7 +604,6 @@ Inner Banner
 #about {
   padding: 90px 0 90px 0;
 }
-
 
 #about .about-img {
   overflow: hidden;
@@ -663,14 +660,13 @@ Inner Banner
 
 #about .content ul li {
   padding-bottom: 10px;
-  color:#f7e707;
+  color: #f7e707;
 }
 
 /* Services Section
 --------------------------------*/
 #services {
   padding: 60px 0 0 0;
-
 }
 
 #services .box {
@@ -724,7 +720,7 @@ Inner Banner
 }
 
 #services .box h4 a {
-  color:#F4DB67;
+  color: #f4db67;
 }
 
 #services .box p {
@@ -779,11 +775,11 @@ Inner Banner
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color:rgb(233, 229, 229);
+  background-color: rgb(233, 229, 229);
 }
 
 #clients .owl-dot.active {
-  background-color: #F4DB67;
+  background-color: #f4db67;
 }
 
 /* Our Portfolio Section
@@ -913,11 +909,10 @@ Inner Banner
 }
 
 #testimonials .testimonial-item p {
-  
   margin: 0 auto 15px auto;
   background: #ffffff;
   width: 100%;
-  border: 1px solid #F4DB67;
+  border: 1px solid #f4db67;
   border-radius: 15px 15px 0 15px;
   padding: 22px 15px;
   font-size: 15px;
@@ -940,7 +935,7 @@ Inner Banner
 }
 
 #testimonials .owl-dot.active {
-  background-color: #F4DB67;
+  background-color: #f4db67;
 }
 .map {
   margin: 80px auto 40px;
@@ -1136,7 +1131,6 @@ p.help-block li {
   }
 }
 
-
 #contact #google-map {
   height: 290px;
   margin-bottom: 20px;
@@ -1194,7 +1188,7 @@ p.help-block li {
 }
 
 #contact .form button[type="submit"] {
-  background: #A6A6A6 ;
+  background: #a6a6a6;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1204,7 +1198,7 @@ p.help-block li {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #A6A6A6;
+  background: #a6a6a6;
 }
 
 /*--------------------------------------------------------------
@@ -1264,7 +1258,7 @@ p.help-block li {
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #ffffff;
-  background-color:#292929;
+  background-color: #292929;
   border-top: 1px solid #e5e5e5;
 }
 
@@ -1306,7 +1300,7 @@ p.help-block li {
   justify-content: center;
   height: 36px;
   max-width: max-content;
-  background-color:#F4DB67;
+  background-color: #f4db67;
   border-radius: 100px;
   color: #2f2f2f;
   line-height: 0;
@@ -1394,10 +1388,10 @@ p.help-block li {
 }
 
 .newsLetterBtn {
-  background: #A6A6A6;
+  background: #a6a6a6;
   border: 0;
   border-radius: 3px;
-  color:blanchedalmond;
+  color: blanchedalmond;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -1411,13 +1405,13 @@ p.help-block li {
   width: 70px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .logoImg {
     height: 40px;
     width: 40px;
   }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
   .logoImg {
     height: 45px;
     width: 45px;
@@ -1430,7 +1424,7 @@ p.help-block li {
   opacity: 1;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1440,7 +1434,7 @@ p.help-block li {
   }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width: 1150px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1449,7 +1443,7 @@ p.help-block li {
     font-weight: 700;
   }
 }
-@media screen and (max-width:924px) {
+@media screen and (max-width: 924px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1458,7 +1452,7 @@ p.help-block li {
     font-weight: 700;
   }
 }
-@media screen and (max-width:498px) {
+@media screen and (max-width: 498px) {
   #hero .hero-content h2 span {
     color: rgb(0, 0, 0);
     text-align: right;
@@ -1466,4 +1460,42 @@ p.help-block li {
     text-transform: uppercase;
     font-weight: 700;
   }
+}
+
+.whatsapp {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: flex-end;
+}
+
+.SearchJobs {
+  background-color: rgb(46, 231, 216);
+  width: 30%;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.Job {
+  font-size: 2vw;
+  background-color: none;
+}
+@media screen and (max-width: 632px) {
+  .Job {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 497px) {
+  .Job {
+    font-size: 2.5vw;
+  }
+}
+.JobBtn {
+  margin-bottom: 4px;
+  background-color: white;
+  color: black;
+}
+
+.Modal {
+  backdrop-filter: none;
+  padding-top: 200px;
 }
